@@ -11,6 +11,7 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    text-decoration: none;
 }
 
 a:hover {
@@ -326,6 +327,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    list-style-type: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -502,7 +504,7 @@ button {
 }
 
 .panel-rd .panel-footer {
-    border-radius: 0 0 29px 29px;
+    border-radius: 0 0 29px 29px;p
 }
 
 .form-control {
@@ -651,7 +653,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /* color: #575757!important; */
+    text-align: center;
 }
 
 .container {
@@ -771,7 +774,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #c15320;
 }
 
 .tc-white {
@@ -779,7 +782,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #c15320;
     color: #FFFFFF!important;
 }
 
